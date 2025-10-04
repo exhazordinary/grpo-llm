@@ -26,6 +26,11 @@ checkpoints/
 ~/.cache/huggingface/
 ~/.cache/torch/
 
+# Datasets (can be large)
+data/
+plain_text/
+*.parquet
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
