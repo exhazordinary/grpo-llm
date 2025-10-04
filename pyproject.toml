@@ -5,9 +5,13 @@ requires-python = ">=3.11"
 
 dependencies = [
     "torch==2.2.2",
-    "transformers>=4.44.0",
-    "accelerate==0.34.2",
+    "transformers>=4.33.0",
+    "accelerate>=0.23.0",
     "numpy<2.0",
+    "datasets>=4.1.1",
+    "evaluate>=0.4.6",
+    "peft>=0.17.1",
+    "trl>=0.7.0",
 ]
 
 [tool.uv.sources]

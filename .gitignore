@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# PyTorch / Transformers checkpoints
+checkpoints/
+*.pt
+*.bin
+*.ckpt
+
+# Hugging Face cache
+~/.cache/huggingface/
+~/.cache/torch/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+
+# MacOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
